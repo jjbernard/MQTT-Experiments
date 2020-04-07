@@ -17,9 +17,9 @@ WLAN_PASSWD = 'TBD'
 SSID = 'TBD'
 
 MQTT_BROKER = 'broker_IP@' 
-MQTT_TOPIC = 'jjpycomtest/TEMP'
-MQTT_TOPIC2 = 'jjpycomtest/PRESSURE'
-MQTT_TOPIC3 = 'jjpycomtest/HUMID'
+MQTT_TOPIC = 'topic/TEMP'
+MQTT_TOPIC2 = 'topic/PRESSURE'
+MQTT_TOPIC3 = 'topic/HUMID'
 
 
 net = WLAN(mode=WLAN.STA)
